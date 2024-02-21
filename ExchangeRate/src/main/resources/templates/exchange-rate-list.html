@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Exchange Rate List</title>
+</head>
+<body>
+<h1>Exchange Rate List</h1>
+<table border="1">
+    <tr>
+        <th>Date</th>
+        <th>USD to NTD</th>
+        <th>RMB to NTD</th>
+        <th>USD to RMB</th>
+        <th>Actions</th>
+    </tr>
+    <tr th:each="exchangeRate : ${exchangeRates}">
+        <td th:text="${exchangeRate.date}"></td>
+        <td th:text="${exchangeRate.usdToNtd}"></td>
+        <td th:text="${exchangeRate.rmbToNtd}"></td>
+        <td th:text="${exchangeRate.usdToRmb}"></td>
+        <td>
+            <a th:href="@{/exchange-rates/update/{id}(id=${exchangeRate.id})}">Update</a>
+            <form th:action="@{/exchange-rates/delete/{id}(id=${exchangeRate.id})}" method="post" style="display: inline;">
+                <input type="hidden" name="_method" value="DELETE" />
+                <button type="submit">Delete</button>
+            </form>
+        </td>
+    </tr>
+</table>
+<a href="/exchange-rates/add">Add Exchange Rate</a>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Exchange Rate</title>
+</head>
+<body>
+<h1>Update Exchange Rate</h1>
+<form action="/exchange-rates/update" method="post" th:object="${exchangeRate}">
+    <input type="hidden" th:field="*{id}">
+    Date: <input type="date" th:field="*{date}" required><br>
+    USD to NTD: <input type="text" th:field="*{usdToNtd}" required><br>
+    RMB to NTD: <input type="text" th:field="*{rmbToNtd}" required><br>
+    USD to RMB: <input type="text" th:field="*{usdToRmb}" required><br>
+    <input type="submit" value="Update">
+</form>
+</body>
+</html>
