@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jumbogames.sps:math-rng:1.0.8-GLI">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jumbogames/sps/math-rng/1.0.8-GLI/math-rng-1.0.8-GLI.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jumbogames/sps/math-rng/1.0.8-GLI/math-rng-1.0.8-GLI-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jumbogames/sps/math-rng/1.0.8-GLI/math-rng-1.0.8-GLI-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SCGFrontLoginService" />
+        <module name="SCGTokenGuard" />
+        <module name="SCGH5InterfaceYBService" />
+        <module name="exchange-rate-api" />
+        <module name="SCGCommonService" />
+        <module name="SCGLevelService" />
+        <module name="SCGLoginService" />
+        <module name="RegionCommonPorxyServiceProject" />
+        <module name="SCGSlotGameService" />
+        <module name="CSMBackEnd" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CSMBackEnd" target="1.8" />
+      <module name="exchange-rate-api" target="1.8" />
+      <module name="RegionCommonPorxyServiceProject" target="1.8" />
+      <module name="SCGCommonService" target="1.8" />
+      <module name="SCGFrontLoginService" target="1.8" />
+      <module name="SCGH5InterfaceYBService" target="1.8" />
+      <module name="SCGLevelService" target="1.8" />
+      <module name="SCGLoginService" target="1.8" />
+      <module name="SCGSlotGameService" target="1.8" />
+      <module name="SCGTokenGuard" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CSMBackEnd" options="-parameters" />
+      <module name="RegionCommonPorxyServiceProject" options="-parameters" />
+      <module name="SCGCommonService" options="-parameters" />
+      <module name="SCGFrontLoginService" options="-parameters" />
+      <module name="SCGH5InterfaceYBService" options="-parameters" />
+      <module name="SCGLevelService" options="-parameters" />
+      <module name="SCGLoginService" options="-parameters" />
+      <module name="SCGSlotGameService" options="-parameters" />
+      <module name="SCGTokenGuard" options="-parameters" />
+      <module name="exchange-rate-api" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JL Git/CSM/Csm_backend/CSMBackEnd.iml" filepath="$PROJECT_DIR$/../JL Git/CSM/Csm_backend/CSMBackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JL Git/Java/Regionproxy/RegionCommonPorxyServiceProject.iml" filepath="$PROJECT_DIR$/../JL Git/Java/Regionproxy/RegionCommonPorxyServiceProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JL Git/Java/Common/SCGCommonService.iml" filepath="$PROJECT_DIR$/../JL Git/Java/Common/SCGCommonService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JL Git/Java/Frontlogin/SCGFrontLoginService.iml" filepath="$PROJECT_DIR$/../JL Git/Java/Frontlogin/SCGFrontLoginService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JL Git/Java/h5if-yb/SCGH5InterfaceYBService.iml" filepath="$PROJECT_DIR$/../JL Git/Java/h5if-yb/SCGH5InterfaceYBService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JL Git/Java/Level/SCGLevelService.iml" filepath="$PROJECT_DIR$/../JL Git/Java/Level/SCGLevelService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JL Git/Java/Login/SCGLoginService.iml" filepath="$PROJECT_DIR$/../JL Git/Java/Login/SCGLoginService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JL Git/Java/Slotgame/SCGSlotGameService.iml" filepath="$PROJECT_DIR$/../JL Git/Java/Slotgame/SCGSlotGameService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JL Git/Java/Tokengaurd/SCGTokenGuard.iml" filepath="$PROJECT_DIR$/../JL Git/Java/Tokengaurd/SCGTokenGuard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExchangeRate/exchange-rate-api.iml" filepath="$PROJECT_DIR$/ExchangeRate/exchange-rate-api.iml" />
+    </modules>
+  </component>
+</project>

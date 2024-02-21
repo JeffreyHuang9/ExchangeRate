@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.yilegaming.scg:PlatformRedis:1.0.9-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yilegaming/scg/PlatformRedis/1.0.9-SNAPSHOT/PlatformRedis-1.0.9-20220627.122147-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yilegaming/scg/PlatformRedis/1.0.9-SNAPSHOT/PlatformRedis-1.0.9-20220627.122147-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yilegaming/scg/PlatformRedis/1.0.9-SNAPSHOT/PlatformRedis-1.0.9-20220627.122147-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

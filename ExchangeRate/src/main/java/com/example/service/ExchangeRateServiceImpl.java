@@ -5,9 +5,11 @@ import com.example.repository.ExchangeRateRepository;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
+import javax.annotation.PostConstruct;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -24,6 +26,11 @@ public class ExchangeRateServiceImpl implements ExchangeRateService {
     private ExchangeRateRepository exchangeRateRepository;
 
     private Gson gson = new Gson();
+
+    @PostConstruct
+    public void init() {
+        fetchDataAndSaveToDatabase();
+    }
 
     @Override
     public String fetchDataAndSaveToDatabase() {
@@ -43,7 +50,6 @@ public class ExchangeRateServiceImpl implements ExchangeRateService {
             BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             String inputLine;
 
-
             while ((inputLine = in.readLine()) != null) {
                 response.append(inputLine);
             }
@@ -53,6 +59,9 @@ public class ExchangeRateServiceImpl implements ExchangeRateService {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        // 清除数据库旧数据
+        exchangeRateRepository.deleteAll();
 
         List<Map<String, String>> sourceExchangeRateList = gson.fromJson(response.toString(), new TypeToken<List<Map<String, String>>>() {}.getType());
         List<ExchangeRate> exchangeRateList = new ArrayList<>();
@@ -100,5 +109,10 @@ public class ExchangeRateServiceImpl implements ExchangeRateService {
     @Override
     public void deleteExchangeRate(Long id) {
         exchangeRateRepository.deleteById(id);
+    }
+
+    @Scheduled(cron = "0 0 * * *") // 每天整点执行一次
+    public void scheduledFetchDataAndSaveToDatabase() {
+        fetchDataAndSaveToDatabase();
     }
 }

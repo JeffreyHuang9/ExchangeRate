@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JL Git/CSM/Csm_backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JL Git/Java/Common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JL Git/Java/Frontlogin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JL Git/Java/Level" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JL Git/Java/Login" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JL Git/Java/Regionproxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JL Git/Java/Slotgame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JL Git/Java/Tokengaurd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JL Git/Java/h5if-yb" vcs="Git" />
+  </component>
+</project>

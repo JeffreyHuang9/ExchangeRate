@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../JL Git/Java/Common/pom.xml" />
+        <option value="$PROJECT_DIR$/../JL Git/Java/Frontlogin/pom.xml" />
+        <option value="$PROJECT_DIR$/../JL Git/Java/Level/pom.xml" />
+        <option value="$PROJECT_DIR$/../JL Git/Java/Login/pom.xml" />
+        <option value="$PROJECT_DIR$/../JL Git/Java/Regionproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/../JL Git/Java/Slotgame/pom.xml" />
+        <option value="$PROJECT_DIR$/../JL Git/Java/Tokengaurd/pom.xml" />
+        <option value="$PROJECT_DIR$/../JL Git/Java/h5if-yb/pom.xml" />
+        <option value="$PROJECT_DIR$/../JL Git/CSM/Csm_backend/pom.xml" />
+        <option value="$PROJECT_DIR$/ExchangeRate/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

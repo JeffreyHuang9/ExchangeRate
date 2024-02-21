@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ExchangeRate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ExchangeRate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/CSM/Csm_backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/CSM/Csm_backend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Frontlogin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Frontlogin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Level/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Level/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Login/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Login/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Regionproxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Regionproxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Slotgame/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Slotgame/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Tokengaurd/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/Tokengaurd/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/h5if-yb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JL Git/Java/h5if-yb/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

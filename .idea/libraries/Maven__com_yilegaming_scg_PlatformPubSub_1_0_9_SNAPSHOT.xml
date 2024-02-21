@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.yilegaming.scg:PlatformPubSub:1.0.9-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yilegaming/scg/PlatformPubSub/1.0.9-SNAPSHOT/PlatformPubSub-1.0.9-20220628.025744-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yilegaming/scg/PlatformPubSub/1.0.9-SNAPSHOT/PlatformPubSub-1.0.9-20220628.025744-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yilegaming/scg/PlatformPubSub/1.0.9-SNAPSHOT/PlatformPubSub-1.0.9-20220628.025744-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

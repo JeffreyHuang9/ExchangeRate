@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jumbogames.sps:slot-probability-system:0.4.0.0-RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jumbogames/sps/slot-probability-system/0.4.0.0-RELEASE/slot-probability-system-0.4.0.0-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jumbogames/sps/slot-probability-system/0.4.0.0-RELEASE/slot-probability-system-0.4.0.0-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jumbogames/sps/slot-probability-system/0.4.0.0-RELEASE/slot-probability-system-0.4.0.0-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
